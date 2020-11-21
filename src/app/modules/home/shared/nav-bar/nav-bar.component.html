@@ -1,0 +1,93 @@
+<div class="shadow-sm mb-4">
+  <div class="container" id="sub-nav">
+    <div class="row">
+      <div class="col-md-12" style="font-size: 20px;">
+        <a href="https://www.facebook.com/valleyboyshostel/">
+          <fa-icon
+            [icon]="fb"
+            class="float-right mr-4"
+            ngbTooltip="Facebook"
+          ></fa-icon>
+        </a>
+        <a href="#">
+          <fa-icon
+            [icon]="twitter"
+            class="float-right mr-2"
+            ngbTooltip="Twitter"
+          >
+          </fa-icon>
+        </a>
+        <a href="#">
+          <fa-icon
+            [icon]="insta"
+            class="float-right mr-2"
+            ngbTooltip="Instagram"
+          >
+          </fa-icon>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <hr class="nav-line" />
+  <nav
+      class="navbar navbar-expand-sm navbar-light sticky-top"
+      id="main-nav">
+    <div class="container">
+      <img
+        class="navbar-brand"
+        src="assets/images/logo.png"
+        ngbTooltip="DigiChem Graphics"
+      />
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse "
+        data-target="#main-nav"
+      >
+        <fa-icon [class]="fabars"></fa-icon>
+        <span class="navbar-toggle-icon"> </span>
+      </button>
+      <div
+          class="collapse navbar-collapse"
+          id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li
+              class="nav-item active"
+              (click)="toHome()"
+              >
+            <a
+                class="nav-link"
+                routerLinkActive="active"
+                >Home</a>
+          </li>
+
+          <li
+              class="nav-item"
+              (click)="toGallary()"
+              >
+            <a
+                class="nav-link"
+                routerLinkActive="active">Galleries</a>
+          </li>
+          <li
+              class="nav-item"
+              (click)="toAbout()"
+
+          >
+            <a
+                class="nav-link"
+                routerLinkActive="active">About us</a>
+          </li>
+          <li
+              class="nav-item"
+              (click)="toContact()">
+            <a
+                class="nav-link"
+                routerLinkActive="active">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- nav bar -->

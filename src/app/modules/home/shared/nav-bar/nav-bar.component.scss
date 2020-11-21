@@ -1,0 +1,42 @@
+img {
+  // margin-bottom: 5px;
+  height: 6rem;
+}
+
+.navbar-nav {
+  .nav-link {
+    font-size: 14px;
+    text-transform: titlecase;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+.nav-item.active {
+  border-bottom: coral 3px solid;
+}
+
+.navbar {
+  height: 20rem;
+  border-bottom: lightgray;
+  box-shadow: lightgray 3px 1px;
+  position: relative;
+
+}
+
+.nav-line {
+  margin: 1em;
+
+}
+
+#sub-nav {
+  height: 17px;
+
+}
+
+#main-nav{
+  height: 6rem;
+}
+
+
+

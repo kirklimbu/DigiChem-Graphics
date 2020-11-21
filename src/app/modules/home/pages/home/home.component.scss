@@ -1,0 +1,52 @@
+$icon-size:55px;
+
+.picsum-img-wrapper {
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+
+}
+
+
+fa-icon {
+  font-size: $icon-size;
+  color: blue;
+}
+
+ul .list {
+  list-style-position: inside;
+
+}
+
+
+// scrollspy test
+:host {
+  // display: flex;
+  // justify-content: start;
+  border: solid 1px silver;
+}
+// ul {
+//   padding: 0;
+//   margin: 0;
+//   border-right: dashed 1px silver;
+// }
+// li {
+//   margin: 2em;
+//   list-style: none;
+//   white-space: nowrap;
+//   cursor: pointer;
+// }
+li.active {
+  color: blue;
+  font-weight: bold;
+}
+// div.container {
+//   padding: 2em;
+//   height: 20em;
+//   overflow-y: scroll;
+//   // width: 100%;
+// }
+// div.content {
+//   padding: 2em;
+//   height: 50em;
+// }

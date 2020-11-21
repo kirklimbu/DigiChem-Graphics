@@ -1,0 +1,127 @@
+<app-nav-bar></app-nav-bar>
+<!-- <ngb-progressbar
+[style.width]="capacity.available + '%'">
+</ngb-progressbar> -->
+
+<!-- showcase slider -->
+<div id="home">
+  <section>
+    <ngb-carousel *ngIf="images">
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[0]" alt="Random first slide" />
+        </div>
+        <div class="carousel-caption">
+          <h3>10 seconds between slides...</h3>
+          <p>This carousel uses customized default values.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[1]" alt="Random second slide" />
+        </div>
+        <div class="carousel-caption">
+          <h3>No mouse events...</h3>
+          <p>This carousel doesn't pause or resume on mouse events</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[2]" alt="Random third slide" />
+        </div>
+        <div class="carousel-caption">
+          <h3>No keyboard...</h3>
+          <p>This carousel uses customized default values.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[3]" alt="Random fourth slide" />
+        </div>
+        <div class="carousel-caption">
+          <h3>And no wrap after last slide.</h3>
+          <p>This carousel uses customized default values.</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </section>
+
+  <section id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <fa-icon [icon]="faAtom" [spin]="true" class="normal"></fa-icon>
+          <h3 class="text-center">Features</h3>
+          <ul>
+            <li>Location: Closest to ring-road.</li>
+            <li>Clean, Big and Hygenic rooms</li>
+            <li>Most affordable price</li>
+            <li>Home like environment.</li>
+            <li>Silent,Peaceful and perfect for students.</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <fa-icon [icon]="filmIcon"></fa-icon>
+          <h3 class="text-center">Services</h3>
+          <ul class="list">
+            <li>Clean, Hygenic kitchen for breakfast, lunch and dinner.</li>
+            <li>Clean, Big and Hygenic rooms</li>
+            <li>Most affordable price</li>
+            <li>Free WiFi 24/7</li>
+            <li>Water facility 24/7</li>
+          </ul>
+        </div>
+
+        <!-- map -->
+        <!-- <div class="row mb-4"> -->
+        <div class="col-md-4 mb-4 text-center">
+          <fa-icon [icon]="faMap"></fa-icon>
+          <h3 class="text-center">Map</h3>
+          <app-map></app-map>
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+</div>
+<!-- <app-about></app-about> -->
+
+<!--  scrollspy test -->
+
+<!-- <ul>
+  <li scrollSpyMenu="menu1" [currentContent]="currentMenuId">Menu 1</li>
+  <li scrollSpyMenu="menu2" [currentContent]="currentMenuId">Menu 2</li>
+  <li scrollSpyMenu="menu3" [currentContent]="currentMenuId">Menu 3</li>
+</ul>
+
+<div scrollSpyContent="DIV" [(currentContent)]="currentMenuId">
+  <div id="menu1">content1</div>
+  <div id="menu2">content2</div>
+  <div id="menu3">content3</div>
+</div> -->
+<!-- / scrollspy test -->
+
+<!-- <ul>
+  <li scrollSpyMenu="menu1" [ssmCurrentContent]="currentMenuId">Gallary</li>
+  <li scrollSpyMenu="menu2" [ssmCurrentContent]="currentMenuId">About</li>
+  <li scrollSpyMenu="menu3" [ssmCurrentContent]="currentMenuId">Contact us</li>
+</ul> -->
+
+<div class="container" >
+
+<div id="gallary" class="content">
+  <section>
+    <app-gallary></app-gallary>
+  </section>
+</div>
+<div id="about" class="content">
+  <app-about> </app-about>
+</div>
+<div id="contact" class="content">
+  <app-contact-us></app-contact-us>
+</div>
+</div>
+
+<!-- footer -->
+<app-footer> </app-footer>
