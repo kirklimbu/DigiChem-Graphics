@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+@import "~@angular/material/theming";
+$custom-typography: mat-typography-config(
+  $font-family: "Raleway",
+);
+@include mat-core($custom-typography);
+// html, body { height: 100%; }
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+/* body { margin: 0; font-family: 'Times New Roman', Times, serif;
+} */
+.content-wrapper {
+  padding: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+  font-family: "Roboto";
+  // text-decoration: underline
+}
+section {
+  padding: 40px;
+}
+
+#about {
+  background-color: coral;
+}

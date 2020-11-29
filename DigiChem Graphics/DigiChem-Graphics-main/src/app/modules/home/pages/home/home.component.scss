@@ -1,0 +1,46 @@
+$icon-size: 55px;
+
+.picsum-img-wrapper {
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+}
+
+fa-icon {
+  font-size: $icon-size;
+  color: blue;
+}
+
+ul .list {
+  list-style-position: inside;
+}
+
+// scrollspy test
+:host {
+  // display: flex;
+  // justify-content: start;
+  border: solid 1px silver;
+}
+
+li.active {
+  color: blue;
+  font-weight: bold;
+}
+.scroll-to-top {
+  position: fixed;
+  color:e9b903;
+  bottom: 15px;
+  right: 15px;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.show-scrollTop {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+.button:hover {
+  color:coral;
+  border-bottom: 1px;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
