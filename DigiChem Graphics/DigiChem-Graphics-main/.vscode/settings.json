@@ -17,5 +17,6 @@
   },
   "peacock.color": "#1f417e",
   "vscode.tsc.compiler.alertTSConfigChanges": "never",
-  "svn.ignoreMissingSvnWarning": true
+  "svn.ignoreMissingSvnWarning": true,
+  "git.ignoreLimitWarning": true
 }

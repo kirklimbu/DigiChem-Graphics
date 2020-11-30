@@ -12,6 +12,9 @@ $custom-typography: mat-typography-config(
 // body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
 /* body { margin: 0; font-family: 'Times New Roman', Times, serif;
 } */
+body {
+  margin: 0;
+}
 .content-wrapper {
   padding: 30px;
 }
@@ -20,7 +23,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   color: #000000;
   font-family: "Roboto";
@@ -30,6 +32,9 @@ section {
   padding: 40px;
 }
 
-#about {
-  background-color: coral;
+// #about {
+//   background-color: coral;
+// }
+h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
